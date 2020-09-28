@@ -2,8 +2,8 @@
 <style >
 	.box{width:500px;margin:0 auto;}
 	/* .pic{width:270px;height:270px;float:right;}
-	.pic img{width:100%;} */
-	.image{width:300px;float:right;}
+	.pic img{width:100%;} 
+	.image{width:300px;float:right;} */
     .afraid{width:250px;height:230px;}
     .hw{width:250px;height:300px;}
 
@@ -39,10 +39,9 @@ background-color: 	#4682B4;
 padding:0.2em 0.6em;
 border-right:1px solid white;
 }
+
 a:hover {background-color:#ff3300}
 li {display:inline}
-
-
 
 /*background*/
 body {
@@ -101,7 +100,7 @@ p.hw05 {
 }
 
 
-/* white01 透明度*/
+/* white01 透明度 上边缘 */
 img{	
 opacity:0.4;
 filter:alpha(opacity=40); 
@@ -112,8 +111,11 @@ opacity:1.0;
 filter:alpha(opacity=100); 
 }
 
+img.white01{
+position:absolute;
+margin-left: 450px;
+margin-top: 2px;
+}
 
 </style>
 </HEAD>
-
-
