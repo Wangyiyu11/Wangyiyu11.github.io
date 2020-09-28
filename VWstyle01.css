@@ -1,17 +1,93 @@
+<HEAD>
+<style >
+	.box{width:500px;margin:0 auto;}
+	/* .pic{width:270px;height:270px;float:right;}
+	.pic img{width:100%;} */
+	.image{width:300px;float:right;}
+    .afraid{width:250px;height:230px;}
+    .hw{width:250px;height:300px;}
+
+/*导航*/
+ul{
+list-style-type:none;
+margin:20;
+margin-top: 40px;
+margin-left: 150px;
+padding:0;
+}
+li{
+display:inline;
+}
+
+/*background*/
 body {
-  background-color: #E8E8E8;
+  background-color:  #F8F8FF;
+  background-image: url('background01.jpg');
+  background-repeat: no-repeat;
+  background-position: 30px 28px;
 }
 
+/* Welcome */
 h1 {
-  padding: 20px;
-  background-color: #D8D8D8;
-  color: #330066 	;
-  margin-left: 20px;
+  padding: 5px;
+  color: #191970	;
+  margin-left: 80px;
 }
 
-br {
-	
-  color: #330066 	;
-  margin-left: 20px;
+/* Don't be afraid */
+p.afraid {
+  padding: 5px;
+  color:  	#000000	;
+  margin-left: 150px;
 }
+
+/* homework */
+h2 {
+  padding: 5px;
+  color:  	#000000	;
+  margin-left: 200px;
+}
+
+p.hw01 {
+  padding: 5px;
+  color:  	#000000	;
+  margin-left: 200px;
+}
+p.hw02 {
+  padding: 5px;
+  color:  	#000000	;
+  margin-left: 200px;
+}
+p.hw03 {
+  padding: 5px;
+  color:  	#000000	;
+  margin-left: 200px;
+}
+p.hw04 {
+  padding: 5px;
+  color:  	#000000	;
+  margin-left: 200px;
+}
+p.hw05 {
+  padding: 5px;
+  color:  	#000000	;
+  margin-left: 200px;
+}
+
+
+/* white01 透明度*/
+img{	
+opacity:0.4;
+filter:alpha(opacity=40); 
+}
+img:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); 
+}
+
+
+</style>
+</HEAD>
+
 
