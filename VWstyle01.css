@@ -34,10 +34,11 @@ h1 {
   margin-left: 80px;
 }
 
-/* Don't be afraid */
+/* Don't be afraid... italic */
 p.afraid {
   padding: 5px;
   color:  	#000000	;
+  font-style:italic;
   margin-left: 150px;
 }
 
