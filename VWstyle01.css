@@ -99,6 +99,14 @@ p.hw05 {
   margin-left: 200px;
 }
 
+a:link {text-decoration:none;}    /* 未被访问的链接 */
+a:visited {text-decoration:none;} /* 已被访问的链接 */
+a.hw01:hover {text-decoration:underline;background-color: #DCDCDC}   /* 鼠标指针移动到链接上 */
+a.hw02:hover {text-decoration:underline;background-color: #DCDCDC} 
+a.hw03:hover {text-decoration:underline;background-color: #DCDCDC}  
+a.hw04:hover {text-decoration:underline;background-color: #DCDCDC}  
+a.hw05:hover {text-decoration:underline;background-color: #DCDCDC}  
+a:active {text-decoration:underline;}  /* 正在被点击的链接 */
 
 /* white01 透明度 上边缘 */
 img{	
