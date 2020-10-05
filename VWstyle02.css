@@ -1,0 +1,189 @@
+<HEAD>
+<style >
+	.box{width:500px;margin:0 auto;}
+	/* .pic{width:270px;height:270px;float:right;}
+	.pic img{width:100%;} 
+	.image{width:300px;float:right;} */
+    .afraid{width:250px;height:230px;}
+    .hw{width:250px;height:1500px;}
+
+/*导航
+ul{
+list-style-type:none;
+margin:20;
+margin-top: 40px;
+margin-left: 150px;
+padding:0;
+}
+li{
+display:inline;
+}
+*/
+
+/* 水平菜单 */
+ul{
+float:left;
+width:100%;
+padding:0;
+margin:10;
+margin-left: 50px;
+list-style-type:none;
+}
+
+a.menu{
+float:left;
+width:6em;
+text-decoration:none;
+color:white;
+background-color: 	#4682B4;
+padding:0.2em 0.6em;
+border-right:1px solid white;
+}
+
+a:hover {background-color:#ff3300}
+li {display:inline}
+
+
+
+/*background*/
+body {
+  background-color:   	#4682B4;
+  background-image: url('background01.jpg');
+  background-repeat: no-repeat;
+  background-position: 30px 28px;
+}
+
+/* Welcome */
+h1 {
+  padding: 5px;
+  color: #191970	;
+  margin-left: 80px;
+}
+
+/* Don't be afraid... italic */
+p.afraid {
+  padding: 5px;
+  color:  	#000000	;
+  font-style:italic;
+  margin-left: 150px;
+}
+
+/* homework */
+ul.hw {
+  padding: 5px;
+  color:  	#000000	;
+  margin-left: 400px;
+}
+
+p.hw01{margin-left: 50px;}
+p.hw02{margin-left: 50px;}
+p.hw03{margin-left: 50px;}
+p.hw04{margin-left: 50px;}
+p.hw05{margin-left: 50px;}
+
+a:link {text-decoration:none;}    /* 未被访问的链接 */
+a:visited {text-decoration:none;} /* 已被访问的链接 */
+a.hw01:hover {text-decoration:underline;background-color: #DCDCDC}   /* 鼠标指针移动到链接上 */
+a.hw02:hover {text-decoration:underline;background-color: #DCDCDC} 
+a.hw03:hover {text-decoration:underline;background-color: #DCDCDC}  
+a.hw04:hover {text-decoration:underline;background-color: #DCDCDC}  
+a.hw05:hover {text-decoration:underline;background-color: #DCDCDC}  
+a:active {text-decoration:underline;}  /* 正在被点击的链接 */
+
+
+a.hw {
+    position: relative;
+    padding: 0.6em 2em;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #888;
+    z-index: 3;
+}
+
+
+/* white01 透明度 上边缘 */
+img.white01{	
+opacity:0.4;
+filter:alpha(opacity=40); 
+}
+img:hover{
+opacity:1.0;
+filter:alpha(opacity=100); 
+}
+
+img.white01{
+position:absolute;
+margin-left: 500px;
+margin-top: 2px;
+}
+
+img.wave01{	
+opacity:0.6;
+filter:alpha(opacity=60); }
+img:hover{
+opacity:1.0;
+filter:alpha(opacity=100); }
+
+img.wave02{	
+opacity:0.6;
+filter:alpha(opacity=60); }
+img:hover{
+opacity:1.0;
+filter:alpha(opacity=100); }
+
+img.wave03{	
+opacity:0.6;
+filter:alpha(opacity=60); }
+img:hover{
+opacity:1.0;
+filter:alpha(opacity=100); }
+
+img.wave04{	
+opacity:0.6;
+filter:alpha(opacity=60); }
+img:hover{
+opacity:1.0;
+filter:alpha(opacity=100); }
+
+img.wave05{	
+opacity:0.6;
+filter:alpha(opacity=60); }
+img:hover{
+opacity:1.0;
+filter:alpha(opacity=100); }
+
+
+ul.home {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4682B4;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+</style>
+</HEAD>
